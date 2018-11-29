@@ -1,0 +1,72 @@
+/*全局css参数设置*/
+/*黑色*/
+$black : #333333;
+/*蓝色*/
+$maincolor : #589DFC;
+/*黄色*/
+$yellow: #F5A623; 
+/*灰色字体颜色*/
+$gray : #666666;
+/*提示文字颜色*/
+$tip_color : #999999;
+$tip_yellow : #F5A623;
+
+/*字体大小*/
+$fs: 14px;
+$fs_l: 16px;
+$fs_xl : 18px;
+
+/*按钮*/
+$btn_bgcolor : #589DFC;
+$btn_color : #ffffff;
+$btn_border_radius : 4px;
+
+$alert_color : #272736;
+$alert_btn_bg : #ffffff;
+$alert_btn_color : #589dfc; 
+
+/*边框*/
+$input_border : 1px solid #DCDCDC;
+$input_bot_border : 1px solid #DFE1E6;
+
+$alert_content_bot_border : 1px solid #E1E8F0;
+
+/*边距*/
+$padding: 15px;
+
+/*控件样式*/
+.input{
+	color: $black;
+	font-size: $fs_l;
+}
+.label{
+	color: $gray;
+	font-size: $fs_l;
+}
+
+.page_btn_wrapper{
+	padding: $padding;
+}
+.page_btn{
+	color: $btn_color;
+	font-size: $fs_xl;
+	background-color: $btn_bgcolor;
+	border-radius: $btn_border_radius;
+	border: none;
+}
+
+.btn:disabled{
+	background-color: #CBCBCB;
+}
+
+.content_btn_blue{
+	color: $btn_color;
+	font-size: $fs_l;
+	background-color: $btn_bgcolor;
+	line-height: 40px;
+	border-radius: 20px;
+	border: none;
+}
+
+/*进度*/
+$process_h: 30px;
